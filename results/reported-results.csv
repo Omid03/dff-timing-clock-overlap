@@ -1,0 +1,15 @@
+configuration,metric,value,unit,source,status
+dff180_baseline,setup_time,90,ps,report p5,manual estimate
+dff180_modified,setup_time,113,ps,report p9,manual estimate
+dff180_baseline,hold_time,19,ps,report p6,manual estimate
+dff180_modified,hold_time,980,ps,report p11,manual estimate; final source has unused thold=900p
+dff180_baseline,clock_to_q,97.1651,ps,report p7 screenshot,report only
+dff180_modified,clock_to_q,761.7012,ps,report p11 screenshot,report only
+dff180_baseline,average_power,12.3048,uW,report p14 screenshot,historical 0-800 ns; mt0 rounded 12.30
+dff180_modified,average_power,11.7862,uW,report p14 screenshot,historical 0-800 ns; mt0 rounded 11.79
+tgdff32_nominal,setup_time,139,ps,report p16,manual estimate; nominal deck absent
+tgdff32_nominal,hold_time,0,ps,report p16-17,tested condition; not a general zero-hold guarantee
+tgdff32_nominal,clock_to_q,95.9566,ps,report p17 screenshot,report only
+tgdff32_nominal,rise_time_10_90,49.4355,ps,report p18 screenshot,report only
+tgdff32_nominal,fall_time_90_10,74.3161,ps,report p18 screenshot,report only; differs from mt0
+tgdff32_archived_measurement,fall_time,72.78,ps,Part2/TGDDF.mt0,older output; current deck has no measurement
